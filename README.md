@@ -1,18 +1,15 @@
-# Pond-ai Textpond
+# Textpond
 
-## How do I install these formulae?
+This repo tracks the macOS releases for [Textpond](https://trypond.ai).
 
-`brew install pond-ai/textpond/<formula>`
+## Installation
 
-Or `brew tap pond-ai/textpond` and then `brew install <formula>`.
+You can either install the `.dmg` from the releases page, or you can run the following:
 
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "pond-ai/textpond"
-brew "<formula>"
 ```
+brew tap pond-ai/textpond
 
-## Documentation
+brew install --cask textpond
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+open /Applications/Textpond.app
+```
