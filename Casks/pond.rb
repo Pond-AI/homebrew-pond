@@ -1,6 +1,6 @@
 cask "pond" do
-  version "0.1.3-alpha"
-  sha256 "6c3290bdb1cd17070019a3b8f88e54033fccc8fbe254445db9fcf9bcde4451fa"
+  version "0.1.4-alpha"
+  sha256 "42f00e88a1af4f2b83ae2530c2af5794ffc4e24b306284eeefee13789429237c"
 
   url "https://github.com/pond-ai/homebrew-pond/releases/download/v#{version}/pond_#{version}_aarch64.dmg",
       verified: "github.com/pond-ai/homebrew-pond/"
